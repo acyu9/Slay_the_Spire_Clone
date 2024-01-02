@@ -1,0 +1,52 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://7hff4153t0fc"]
+
+[ext_resource type="FontFile" uid="uid://dskmdk146n4rq" path="res://art/pixel_rpg.ttf" id="1_agoge"]
+[ext_resource type="StyleBox" uid="uid://c70svbotc53b8" path="res://scenes/card_ui/card_base_stylebox.tres" id="1_qpkyv"]
+[ext_resource type="StyleBox" uid="uid://boixh0e1uob8q" path="res://scenes/card_ui/card_hover_stylebox.tres" id="2_srpl8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dlswk"]
+bg_color = Color(0.635294, 0.439216, 0.380392, 0.466667)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.8, 0.615686, 0.454902, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_popem"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wpgmh"]
+bg_color = Color(0.635294, 0.439216, 0.380392, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.560784, 0.529412, 0.207843, 1)
+
+[resource]
+default_font = ExtResource("1_agoge")
+default_font_size = 6
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_disabled_color = Color(1, 1, 1, 0.564706)
+Button/colors/font_focus_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(1, 1, 1, 1)
+Button/colors/icon_disabled_color = Color(1, 1, 1, 1)
+Button/colors/icon_focus_color = Color(1, 1, 1, 1)
+Button/colors/icon_hover_color = Color(0, 0, 0, 1)
+Button/colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+Button/colors/icon_normal_color = Color(0, 0, 0, 1)
+Button/colors/icon_pressed_color = Color(0, 0, 0, 1)
+Button/constants/h_separation = 0
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 0
+Button/font_sizes/font_size = 6
+Button/fonts/font = ExtResource("1_agoge")
+Button/styles/disabled = SubResource("StyleBoxFlat_dlswk")
+Button/styles/focus = SubResource("StyleBoxEmpty_popem")
+Button/styles/hover = ExtResource("2_srpl8")
+Button/styles/normal = ExtResource("1_qpkyv")
+Button/styles/pressed = SubResource("StyleBoxFlat_wpgmh")
+Panel/styles/panel = ExtResource("1_qpkyv")
+PanelContainer/styles/panel = ExtResource("1_qpkyv")
